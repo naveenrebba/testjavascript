@@ -1,0 +1,41 @@
+var a=10
+a>10?"true":"false"
+
+
+
+
+
+
+
+
+var input=2
+switch(input%2){
+    case 1:
+    console.log("number is even")
+    break;
+    case 0:
+    console.log("number is odd")
+    break;
+    default:
+    console.log("hi default case")
+
+}
+
+switch(new Date().getDay()){
+      case 0:
+      console.log("today is sunday")
+      case 1:
+      console.log("today is moday")
+      case 3:
+      console.log("toay is wednsday")
+      default:
+      console.log("invalid input")
+  }
+
+
+
+
+
+
+
+
