@@ -1,0 +1,10 @@
+var myarray=['ams','nrlr','tp',['bmw','awm',['a','b',b'],'ctp'],'kp','lp','cp']
+for(i=0;i<myarray.length;i++){
+    if(Array.isArray(myarray[i])){
+        for(j=0;j<myarray[i].length;j++){
+            console.log(myarray[i][j])
+        }
+    }else{
+            console.log(myarray[i])
+        }
+    }

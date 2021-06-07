@@ -1,0 +1,14 @@
+var a=[1,2,"abc",true,false]
+typeof(a)
+
+
+
+
+var city=['london','paries',['naveen','praveen',['awm','groza'],'vina'],'chennai','naellore','tn']
+city.indexOf('tn')
+
+
+var a="hi"
+var b=["hi"]
+Array.isArray(a)
+Array.isArray(b)

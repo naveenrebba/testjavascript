@@ -1,0 +1,10 @@
+var name="naveen"
+switch(name){
+    case "akash":
+    console.log("hi akash")
+    case "naveen":
+    console.log("hi naveen")
+    default:
+    console.log("hi defult case")
+    
+}
