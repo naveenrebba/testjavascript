@@ -1,0 +1,22 @@
+
+var a="hHi"
+a.match("^([a-zA-Z]){2,5}$")
+
+
+
+
+var a="hHi45"
+a.match("^([a-zA-Z0-9]+)$")
+
+
+
+var a="hHi45@"
+a.match("^([a-zA-Z0-9@]+)$")
+
+
+
+
+
+
+var email="rebbanaveen666@gmail.com"
+email.match("^([a-z0-9]+)@([a-z]+)\.([a-z]{2,5})$")
